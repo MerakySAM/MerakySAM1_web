@@ -1,7 +1,7 @@
 .servicios-barra {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 18px;                /* Separación entre recuadros */
   margin: 0;
   padding: 0 20px;
@@ -87,6 +87,3 @@
   letter-spacing: 0.04em;
   color: #fff !important;
 }
-
-
-/* ¡OJO! NO agregues margin-top: 0 !important ni padding-top: 0 !important a servicios-barra */
